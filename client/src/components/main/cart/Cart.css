@@ -1,0 +1,19 @@
+.container-cart {
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.footer {
+  width: 99vw;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  background-color: #101012;
+  border-top: solid 3px #3E33BD;
+  padding: 10px;
+  font-size: x-large;
+}

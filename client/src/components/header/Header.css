@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  width: 100%;
+  height: 100px;
+  background-color: #101012;
+
+}
+
+.title {
+  display: inline;
+  background-color: #101012;
+}
+
+.search {
+  width: 400px;
+  height: 55px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-container>* {
+  background-color: #101012;
+}
+
+.header-container :first-child {
+  width: 90px;
+
+}
+
+.header-container :last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-container :last-child p {
+  background-color: #101012;
+}

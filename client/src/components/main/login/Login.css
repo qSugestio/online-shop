@@ -1,0 +1,32 @@
+.div-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+}
+
+.login-form {
+  width: 500px;
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.register {
+  font-size: larger;
+  width: fit-content;
+  border: none;
+  transition: 0.3s;
+}
+
+.register:hover {
+  text-shadow: 3px 0px 5px #3C2FCD;
+  transform: scale(111%);
+}
